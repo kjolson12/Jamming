@@ -17,13 +17,18 @@
 .Track-action:hover {
     color: rgba(265, 265, 265, .5);
 }
+
+.Track-art-container {
+    height: auto;
+    margin-right: 10px;
+}
   
 .Track-information {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 72px;
+    height: auto;
 }
   
 .Track-information h3 {

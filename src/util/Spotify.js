@@ -2,7 +2,7 @@ import SearchBar from "../Components/SearchBar/SearchBar";
 
 let accessToken;
 const clientId = '6d0ec6bbb9354bbf83eb9cb51248c764';
-const redirectUri = "http://overjoyed-statement.surge.sh";
+const redirectUri = 'http://overjoyed-statement.surge.sh';
 
 
 const Spotify = {
@@ -41,7 +41,8 @@ const Spotify = {
                 name: track.name,
                 artist: track.artists[0].name,
                 album: track.album.name,
-                uri: track.uri
+                uri: track.uri,
+                images: track.album.images[2].url
             }));
         })
     },
